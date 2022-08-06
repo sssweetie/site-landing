@@ -1,31 +1,38 @@
 import React from "react";
 import styles from "./Skills.module.css";
+import star3 from "../../img/3star.png";
+import star4 from "../../img/4star.png";
+import react from "../../img/react.png";
+import redux from "../../img/redux.png";
+import figma from "../../img/figma.png";
+import adobe from "../../img/adobe.png";
+
 function Skills() {
   return (
     <div className={styles.wrapper}>
       <h1 className={styles.title}>Skills</h1>
       <p className={styles.description}>
-        I work with such frameworks&programs as:
+        I work with such frameworks & programs as:
       </p>
       <div className={styles.block}>
-        <img className={styles.program}></img>
+        <img src={react} className={styles.program}></img>
         <p className={styles.programName}>React</p>
-        <img className={styles.programSkill}></img>
+        <img src={star4} className={styles.programSkill}></img>
       </div>
       <div className={styles.block}>
-        <img className={styles.program}></img>
+        <img src={redux} className={styles.program}></img>
         <p className={styles.programName}>Redux</p>
-        <img className={styles.programSkill}></img>
+        <img src={star4} className={styles.programSkill}></img>
       </div>
       <div className={styles.block}>
-        <img className={styles.program}></img>
+        <img src={figma} className={styles.program}></img>
         <p className={styles.programName}>Figma</p>
-        <img className={styles.programSkill}></img>
+        <img src={star3} className={styles.programSkill}></img>
       </div>
       <div className={styles.block}>
-        <img className={styles.program}></img>
+        <img src={adobe} className={styles.program}></img>
         <p className={styles.programName}>Adobe Photoshop</p>
-        <img className={styles.programSkill}></img>
+        <img src={star3} className={styles.programSkill}></img>
       </div>
     </div>
   );
