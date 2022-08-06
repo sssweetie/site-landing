@@ -1,0 +1,70 @@
+.page {
+  width: 940px;
+  height: 768px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+
+hr {
+  border: none;
+  background-color: #828282;
+  color: #828282;
+  height: 1px;
+  margin-top: 30px;
+}
+
+.headerTags {
+  font-family: sans-serif;
+  font-weight: 700;
+  padding-top: 30px;
+}
+
+a:link {
+  text-decoration: inherit;
+  color: #828282;
+  cursor: pointer;
+}
+
+a:visited {
+  text-decoration: inherit;
+  color: #828282;
+  cursor: pointer;
+}
+
+a:active {
+  color: black;
+  cursor: pointer;
+}
+
+.main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 40px;
+}
+
+.fullName {
+  font-size: 36px;
+  width: 180px;
+}
+
+.gradient {
+  width: 940px;
+  height: 400px;
+  margin-top: 40px;
+}
+
+.description {
+  width: 270px;
+  text-align: center;
+  margin-right: 80px;
+}
+.language {
+  writing-mode: tb-rl;
+  transform: rotate(-180deg);
+}

@@ -1,30 +1,14 @@
 import styles from "./styles.module.css";
+import AboutMe from "./components/AboutMe/AboutMe";
+import WelcomePage from "./components/WelcomePage/WelcomePage";
+import Skills from "./components/Skills/Skills";
 function App() {
   return (
-    <div className={styles.page}>
-      <div className={styles.header}>
-        <a className={styles.headerTags} href="">
-          Home
-        </a>
-        <a className={styles.headerTags} href="">
-          About me
-        </a>
-        <a className={styles.headerTags} href="">
-          Skills
-        </a>
-        <a className={styles.headerTags} href="">
-          Portfolio
-        </a>
-        <a className={styles.headerTags} href="">
-          Contacts
-        </a>
-      </div>
-      <hr></hr>
-      <div className={styles.main}>
-        <b className={styles.fullName}>Aleksandr Tokarev</b>
-      </div>
-      <div></div>
-    </div>
+    <form>
+      <WelcomePage className={styles.app}></WelcomePage>
+      <AboutMe></AboutMe>
+      <Skills></Skills>
+    </form>
   );
 }
 
