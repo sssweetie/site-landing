@@ -9,7 +9,7 @@ import adobe from "../../img/adobe.png";
 
 function Skills() {
   return (
-    <div className={styles.wrapper}>
+    <div id="skills" className={styles.wrapper}>
       <h1 className={styles.title}>Skills</h1>
       <p className={styles.description}>
         I work with such frameworks & programs as:

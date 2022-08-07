@@ -2,7 +2,7 @@ import React from "react";
 import styles from "./AboutMe.module.css";
 function AboutMe() {
   return (
-    <div className={styles.wrapper}>
+    <div id="aboutme" className={styles.wrapper}>
       <h1 className={styles.head}>About me</h1>
       <p className={styles.description}>
         Hi, I'm Aleksandr - Frontend developer from Volgograd. I'm interested in

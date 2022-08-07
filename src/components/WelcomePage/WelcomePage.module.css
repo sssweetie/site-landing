@@ -75,6 +75,9 @@ hr {
   .menu {
     width: 30px;
   }
+  .menu:hover {
+    cursor: pointer;
+  }
   .fullName {
     font-size: 24px;
     width: 100%;
@@ -99,21 +102,4 @@ hr {
     display: block;
     margin: 30px 10px 0 10px;
   }
-}
-
-a:link {
-  text-decoration: inherit;
-  color: #828282;
-  cursor: pointer;
-}
-
-a:visited {
-  text-decoration: inherit;
-  color: #828282;
-  cursor: pointer;
-}
-
-a:active {
-  color: black;
-  cursor: pointer;
 }
