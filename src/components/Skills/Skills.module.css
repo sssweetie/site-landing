@@ -1,5 +1,4 @@
 .wrapper {
-  height: 940px;
   height: 600px;
   margin-left: auto;
   margin-right: auto;
@@ -15,20 +14,49 @@
 .description {
   grid-column: span 4;
   font-size: 18px;
-  font-weight: 500;
+  font-weight: 600;
 }
 .title {
   grid-column: span 4;
+  font-size: 36px;
 }
 .program {
   height: 100px;
 }
 
 .programName {
+  color: #828282;
+  font-size: 18px;
+  font-weight: 600;
 }
 
-.programSkill {
+@media screen and (max-width: 950px) {
+  .wrapper {
+    grid-template-columns: 170px 170px;
+    grid-template-rows: 120px 120px 200px 200px;
+  }
+  .description {
+    grid-column: span 2;
+    font-size: 18px;
+    font-weight: 600;
+  }
+  .title {
+    grid-column: span 2;
+  }
 }
 
-.block {
+@media screen and (min-width: 320px) and (max-width: 950px) {
+  .wrapper {
+    height: 1200px;
+    grid-template-columns: 170px;
+    grid-template-rows: 80px 100px 200px 200px 200px 200px;
+    grid-column-gap: 0;
+    grid-row-gap: 20px;
+  }
+  .description {
+    grid-column: span 1;
+  }
+  .title {
+    grid-column: span 1;
+  }
 }

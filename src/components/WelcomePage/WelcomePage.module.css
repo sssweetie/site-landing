@@ -1,6 +1,6 @@
 .page {
-  width: 940px;
-  height: 768px;
+  max-width: 940px;
+  max-height: 768px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -8,6 +8,7 @@
 .header {
   display: flex;
   justify-content: space-between;
+  padding-top: 30px;
 }
 
 hr {
@@ -21,7 +22,83 @@ hr {
 .headerTags {
   font-family: sans-serif;
   font-weight: 700;
-  padding-top: 30px;
+}
+
+.main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 40px;
+}
+
+.fullName {
+  flex-grow: 2;
+  font-size: 36px;
+  width: 100%;
+  max-width: 180px;
+}
+
+.gradient {
+  width: 100%;
+  max-width: 940px;
+  margin-top: 40px;
+}
+
+.description {
+  flex-grow: 3;
+  width: 100%;
+  max-width: 240px;
+  text-align: center;
+}
+.language {
+  max-width: 20px;
+  flex-grow: 1;
+  margin: 0;
+  writing-mode: tb-rl;
+  transform: rotate(-180deg);
+}
+
+.header320 {
+  display: none;
+}
+
+@media screen and (max-width: 480px) {
+  .header {
+    display: none;
+  }
+  .header320 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10px 0 10px;
+  }
+  .menu {
+    width: 30px;
+  }
+  .fullName {
+    font-size: 24px;
+    width: 100%;
+    max-width: 120px;
+    padding-left: 10px;
+  }
+  .description {
+    width: 100%;
+    max-width: 180px;
+    text-align: center;
+    font-size: 12px;
+  }
+  .language {
+    margin-right: 10px;
+  }
+  hr {
+    width: 95%;
+    max-width: 480px;
+  }
+  .gradient {
+    width: 95%;
+    display: block;
+    margin: 30px 10px 0 10px;
+  }
 }
 
 a:link {
@@ -39,32 +116,4 @@ a:visited {
 a:active {
   color: black;
   cursor: pointer;
-}
-
-.main {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-top: 40px;
-}
-
-.fullName {
-  font-size: 36px;
-  width: 180px;
-}
-
-.gradient {
-  width: 940px;
-  height: 400px;
-  margin-top: 40px;
-}
-
-.description {
-  width: 270px;
-  text-align: center;
-  margin-right: 80px;
-}
-.language {
-  writing-mode: tb-rl;
-  transform: rotate(-180deg);
 }

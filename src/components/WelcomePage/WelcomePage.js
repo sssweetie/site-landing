@@ -1,6 +1,7 @@
 import React from "react";
 import styles from "./WelcomePage.module.css";
-import gradient from "../../img/gradient.jpg";
+import gradient from "../../img/me wide.jpg";
+import menu from "../../img/menu.png";
 function WelcomePage() {
   return (
     <div className={styles.page}>
@@ -20,6 +21,10 @@ function WelcomePage() {
         <a className={styles.headerTags} href="">
           Contacts
         </a>
+      </div>
+      <div className={styles.header320}>
+        <a className={styles.headerTags}>Home</a>
+        <img className={styles.menu} src={menu}></img>
       </div>
       <hr></hr>
       <div className={styles.main}>
