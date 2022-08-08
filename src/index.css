@@ -27,3 +27,7 @@ div a:active {
   color: black;
   cursor: pointer;
 }
+
+html {
+  scroll-behavior: smooth;
+}

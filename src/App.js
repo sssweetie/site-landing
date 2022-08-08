@@ -3,6 +3,7 @@ import WelcomePage from "./components/WelcomePage/WelcomePage";
 import Skills from "./components/Skills/Skills";
 import Portfolio from "./components/Portfolio/Portfolio";
 import Contacts from "./components/Contacts/Contacts";
+
 function App() {
   return (
     <form>
@@ -11,6 +12,7 @@ function App() {
       <Skills></Skills>
       <Portfolio></Portfolio>
       <Contacts></Contacts>
+
     </form>
   );
 }

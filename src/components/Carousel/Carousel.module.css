@@ -1,0 +1,30 @@
+.mainContainer {
+  width: 100%;
+  max-width: 650px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.window {
+  width: 100%;
+  max-width: 450px;
+  overflow: hidden;
+}
+
+.allItems {
+  position: static;
+  display: flex;
+  transition: translate;
+  transition-property: transform;
+  transition-duration: 300ms;
+  transition-timing-function: ease-in-out;
+}
+
+.arrow {
+  cursor: pointer;
+  width: 50px;
+}
+.arrow:hover {
+  transform: scale(1.5, 1.5);
+}
