@@ -1,7 +1,5 @@
 # Portfolio Website
-Данный вебсайт разрабатывался для ознакомления с правилами адаптивного дизайна, а также представления личной информации обо мне.
-
-Current website is developed for learning basic rules of adaptive design. Also, here is represented about me information.
+Site is developed on React with adaptive interface
 ## How to install 
 Для запуска данного репозитория необходимо клонировать его к себе на компьютер. Прописать команду `npm install` для подгрузки необходимых пакетов и `npm start` для запуска самого приложения. Далее в браузерной строке необходимо открыть `http://localhost:3000`
 
